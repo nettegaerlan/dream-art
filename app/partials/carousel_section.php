@@ -12,7 +12,7 @@
         <p>...</p>
       </div>
     </div>
-    <!-- <div class="carousel-item carousel-2">
+    <div class="carousel-item carousel-2">
       <img class="d-block w-100 invisible" src="https://media.nintendo.com/nintendo/bin/oDveMKjc_sa_kd2Peem2AiZQZ5BsVNlv/l0d7zUkULQ2o3nidxeRkP2TdabypBGcO.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
       <h5>Diablo 3</h5>
@@ -25,7 +25,7 @@
       <h5>Super Smash Bros: Ultimate</h5>
         <p>...</p>
       </div>
-    </div> -->
+    </div>
   </div>
   <a class="carousel-control-prev" href="#echoGamesCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

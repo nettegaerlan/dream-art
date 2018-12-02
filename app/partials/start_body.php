@@ -9,6 +9,8 @@
 	<link rel="shortcut icon" type="image/png" href="../assets/images/brand-logo-1.png"/>
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
 	<!-- <link rel="stylesheet" type="text/css" href="../assets/css/carousel.css"> -->
+	<link rel="stylesheet" type="text/css" href="../assets/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../assets/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 <body>

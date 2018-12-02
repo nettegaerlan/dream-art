@@ -22,7 +22,7 @@
           <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Register</a>
         </li>
       </ul>
-      <form class="search-form form-inline mt-2 mt-md-0 justify-content-end">
+      <form class="search-form form-inline mt-2 mt-md-0 d-none d-md-block justify-content-end">
         <input class="form-control mr-sm-2" type="text" placeholder="Search..." aria-label="Search">
       </form>
     </div>
