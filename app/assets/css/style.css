@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.brand-logo {
+	margin-right: 8px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link {
+    transition: 0.4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 158, 8);
+}
+
+.carousel-1 {
+	background: /*linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, .8)
+    ), */url("https://media.nintendo.com/nintendo/bin/p0ZtnlG54TJ8mDkPa30fubv7QTKB0IMz/3KD6WGxjTi4-X-j_BflgjY_tkffHLmx9.jpg") no-repeat center center scroll;
+	background-size: cover;
+}
+
+.carousel-2 {
+	background: /*linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, .8)
+    ), */url("https://media.nintendo.com/nintendo/bin/oDveMKjc_sa_kd2Peem2AiZQZ5BsVNlv/l0d7zUkULQ2o3nidxeRkP2TdabypBGcO.jpg") no-repeat center center scroll;
+	background-size: cover;
+}
+
+.carousel-3 {
+	background: /*linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, .8)
+    ), */url("https://media.nintendo.com/nintendo/bin/DH5mhOxmicbsSClAGnovdZ5fDHtcBmNB/ufVy6VbSRskAEcE6GI2HOuwb9t6RcGLm.jpg") no-repeat scroll;
+	background-size: cover;
+}
+
+.carousel-caption {
+	background-color: #000000b8;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+@media only screen and (min-width: 320px) {
+	.carousel-item {
+		height: 15rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.carousel-item {
+		height: 32rem;
+	}
+	.carousel-1,
+	.carousel-2,
+	.carousel-3 {
+		background-size: 80%;
+		background-position: center top;
+	}
+	.carousel-1 {
+		background-color: red;
+	}
+	.carousel-2 {
+		background-color: #151512;
+	}
+	.carousel-3 {
+		background-color: black;
+	}
+}
