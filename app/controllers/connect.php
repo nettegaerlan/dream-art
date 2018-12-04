@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$dbname = "ecommerce_chillis";
+$dbname = "ecommerce_games";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
