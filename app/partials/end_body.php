@@ -2,7 +2,6 @@
     <script type="text/javascript" src="../assets/js/popper.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
-    <script type="text/javascript" src="../assets/js/script.js"></script>
     <script type="text/javascript">
     	$('.echo-feature-slider').slick({
 		  infinite: true,
@@ -26,5 +25,7 @@
 		  ]
 		});
     </script>
+    <script type="text/javascript" src="../assets/js/filter_by_category.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
 </body>
 </html>
