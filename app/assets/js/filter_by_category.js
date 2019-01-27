@@ -1,5 +1,8 @@
+import { displayCardItems, listCardItems } from "./function_template.js";
+
 $(document).ready(function() {
 	const listItems = $(".list-group-item");
+	const cat_items = $(".category-items");
 
 	listItems.each(function() {
 		$(this).click(function() {
@@ -18,26 +21,17 @@ $(document).ready(function() {
 	function filterByCatId(jsondata) {
 		if(jsondata !== "") {
 			const filteredItems = JSON.parse(jsondata);
-			let cardColumns = ``;
+			listCardItems.template = ``;
+			filteredItems.forEach(displayCardItems);
+			let cardColumns = `
+				<div class= "card-columns">
+					${listCardItems.template}
+				</div>
+			`;
 			let listItems = ``;
-			filteredItems.forEach(function(item) {
-				listItems += `
-					<div class="card">
-					  <img class="card-img-top" src="../assets/images/${item.image}" alt="Card image cap">
-					  <div class="card-body">
-					    <h5 class="card-title">${item.name}</h5>
-					    <p class="card-text">PHP ${item.price}</p>
-					    <a href="#" class="btn btn-sm btn-outline-primary">Add To Cart</a>
-					  </div>
-					</div>
-				`;
-				cardColumns = `
-					<div class="card-columns">
-						${listItems}
-					</div>
-				`;
-				$(".products-container").html(cardColumns);
-			});
+			$(".products-container").html(cardColumns);
+		}else{
+			$(".products-container").html("No items in this category");
 		}
 	}
 });

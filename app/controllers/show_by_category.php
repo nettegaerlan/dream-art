@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 require_once("connect.php");
 
 $catId = $_POST['catId'];
@@ -17,4 +17,6 @@ if($filteredByCategories) {
 }
 
 mysqli_close($conn);
+
+ob_end_flush();
 

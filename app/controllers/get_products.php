@@ -1,5 +1,7 @@
 <?php
 
+ob_start();
+
 require("connect.php");
 
 $sql = "SELECT * FROM items";
@@ -11,3 +13,5 @@ if($result) {
 }
 
 mysqli_close($conn); 
+
+ob_end_flush();
